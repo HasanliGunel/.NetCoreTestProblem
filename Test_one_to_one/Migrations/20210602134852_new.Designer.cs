@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Test_one_to_one.database;
 
 namespace Test_one_to_one.Migrations
 {
     [DbContext(typeof(UniversityContext))]
-    partial class UniversityContextModelSnapshot : ModelSnapshot
+    [Migration("20210602134852_new")]
+    partial class @new
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -71,12 +73,12 @@ namespace Test_one_to_one.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("StudentID")
+                    b.Property<int?>("StudentGradeID")
                         .HasColumnType("int");
 
                     b.HasKey("ID");
 
-                    b.HasIndex("StudentID");
+                    b.HasIndex("StudentGradeID");
 
                     b.ToTable("Students");
                 });
@@ -120,16 +122,14 @@ namespace Test_one_to_one.Migrations
 
                     b.HasIndex("GradeID");
 
-                    b.HasIndex("StudentID");
-
                     b.ToTable("StudentGrades");
                 });
 
             modelBuilder.Entity("Test_one_to_one.database.Student", b =>
                 {
-                    b.HasOne("Test_one_to_one.database.Student", null)
+                    b.HasOne("Test_one_to_one.database.StudentGrade", null)
                         .WithMany("Students")
-                        .HasForeignKey("StudentID");
+                        .HasForeignKey("StudentGradeID");
                 });
 
             modelBuilder.Entity("Test_one_to_one.database.StudentAddres", b =>
@@ -159,18 +159,10 @@ namespace Test_one_to_one.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Test_one_to_one.database.Student", "Students")
-                        .WithMany()
-                        .HasForeignKey("StudentID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Grade");
-
-                    b.Navigation("Students");
                 });
 
-            modelBuilder.Entity("Test_one_to_one.database.Student", b =>
+            modelBuilder.Entity("Test_one_to_one.database.StudentGrade", b =>
                 {
                     b.Navigation("Students");
                 });

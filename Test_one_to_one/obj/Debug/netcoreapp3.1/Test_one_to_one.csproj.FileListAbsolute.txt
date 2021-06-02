@@ -48,7 +48,6 @@ C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\bin\D
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\Debug\netcoreapp3.1\Test_one_to_one.csprojAssemblyReference.cache
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\Debug\netcoreapp3.1\Test_one_to_one.AssemblyInfoInputs.cache
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\Debug\netcoreapp3.1\Test_one_to_one.AssemblyInfo.cs
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\Debug\netcoreapp3.1\Test_one_to_one.csproj.CoreCompileInputs.cache
@@ -61,3 +60,4 @@ C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\D
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\Debug\netcoreapp3.1\Test_one_to_one.dll
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\Debug\netcoreapp3.1\Test_one_to_one.pdb
 C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\Debug\netcoreapp3.1\Test_one_to_one.genruntimeconfig.cache
+C:\Users\gunel\Desktop\C#\Tecrube_tapsiriq\Test_one_to_one\Test_one_to_one\obj\Debug\netcoreapp3.1\Test_one_to_one.csprojAssemblyReference.cache
